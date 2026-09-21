@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Cafe Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <h1>EXAMPLE CAFE MENU</h1>
+      </header>
+
+      <!-- NAVIGATION BAR -->
+      <nav class="top-nav">
+        <a href="#" class="home-icon">
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            stroke="black"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+        </a>
+
+        <div class="nav-links">
+          <a href="#">STARTER</a>
+          <a href="#">MAIN COURSES</a>
+          <a href="#">DESSERTS</a>
+        </div>
+
+        <div class="nav-search">
+          <input type="text" class="search-box" />
+          <button class="go-btn">Go</button>
+        </div>
+      </nav>
+
+      <!-- MAIN CONTENT AREA -->
+      <div class="main-wrapper">
+        <!-- CỘT 1: MENU TRÁI -->
+        <aside class="left-sidebar">
+          <ul>
+            <li><a href="#">Cafe Latte</a></li>
+            <!-- Giữ nguyên lỗi chính tả: Capuchino -->
+            <li><a href="#">Capuchino</a></li>
+            <li><a href="#">Ocean Blue</a></li>
+            <li><a href="#">Ice-cream Cafe</a></li>
+            <li><a href="#">Order Online</a></li>
+          </ul>
+          <div class="circle-img-container">
+            <img
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Cafe Crowd"
+            />
+          </div>
+        </aside>
+
+        <!-- CỘT 2: NỘI DUNG CHÍNH -->
+        <main class="content">
+          <!-- STARTER -->
+          <section class="menu-section">
+            <h2 class="section-title">S t a r t e r</h2>
+            <ul class="food-list">
+              <!-- Giữ nguyên lỗi chính tả: Chesnut -->
+              <li>
+                Chesnut and Mushroom Goujons (<span class="red-text">v</span>)
+              </li>
+              <li>Goat Cheese(<span class="red-text">v</span>)</li>
+              <li>HONEY SOY CHICKEN KEBABS(<span class="red-text">v</span>)</li>
+              <li>Seafood Salad(<span class="red-text">v</span>)</li>
+            </ul>
+            <a href="#" class="back-to-top">Back to Top</a>
+          </section>
+
+          <!-- DESSERTS -->
+          <section class="menu-section">
+            <h2 class="section-title">D e s s e r t s</h2>
+            <ul class="food-list">
+              <li>Lemon Sorbet (<span class="red-text">v</span>)</li>
+              <li>Chocolate Mud Pie(<span class="red-text">v</span>)</li>
+              <li>Pecan Pie(<span class="red-text">v</span>)</li>
+              <li>
+                Selection of fine Cheeses from Around the World(<span
+                  class="red-text"
+                  >v</span
+                >)
+              </li>
+            </ul>
+            <a href="#" class="back-to-top">Back to Top</a>
+          </section>
+
+          <!-- INFORMATION FORM -->
+          <section class="info-section">
+            <h2 class="section-title">I N F O R M A T I O N</h2>
+            <form action="#" method="post">
+              <div class="form-row">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="input-field"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="input-field"
+                />
+              </div>
+
+              <div class="form-row">
+                <input type="email" placeholder="Email" class="input-field" />
+                <input type="tel" placeholder="Telephone" class="input-field" />
+              </div>
+
+              <div class="form-row">
+                <!-- Giữ nguyên lỗi chính tả: USA thay vì Des -->
+                <select class="input-field select-field">
+                  <option value="USA">USA</option>
+                  <option value="Vietnam">Vietnam</option>
+                </select>
+
+                <div class="radio-group">
+                  <label
+                    ><input
+                      type="radio"
+                      name="nationality"
+                      value="vietnamese"
+                    />
+                    Vietnamese</label
+                  >
+                  <label
+                    ><input type="radio" name="nationality" value="foreigner" />
+                    Foreigner</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-row">
+                <textarea
+                  placeholder="Comment"
+                  class="input-field textarea-field"
+                ></textarea>
+              </div>
+
+              <div class="form-row">
+                <!-- Giữ nguyên lỗi chính tả: Cacel -->
+                <button type="submit" class="action-btn">Submit</button>
+                <button type="reset" class="action-btn">Cacel</button>
+              </div>
+            </form>
+          </section>
+        </main>
+
+        <!-- CỘT 3: EVENTS -->
+        <aside class="right-sidebar">
+          <h2 class="events-header">Events</h2>
+
+          <div class="event-box">
+            <h3>Regular Meetings</h3>
+            <img
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Meeting"
+            />
+            <p>
+              Host your regular team meetings or activities in the comfort of
+              your own private room. <a href="#">Read more...</a>
+            </p>
+          </div>
+
+          <div class="event-box">
+            <h3>Product Launches</h3>
+            <img
+              src="https://images.unsplash.com/photo-1515169067868-5387ec356754?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Launch"
+            />
+            <p>
+              Launch your product with ease in a space that truly fits its
+              image. <a href="#">Read more...</a>
+            </p>
+          </div>
+        </aside>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>ABC Company &copy; - 12345678 - abccoffee@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>
