@@ -100,7 +100,7 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-left: 15px;
+  padding-left: 40px;
   border-left: 2px solid #b25e8b;
   height: 30px;
 }
