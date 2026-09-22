@@ -62,12 +62,34 @@ header h1 {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
-  padding: 0 20px;
   border-right: 2px solid #b25e8b;
   line-height: 30px;
   white-space: nowrap;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.nav-links a:last-child {
+  border-right: none;
+}
+
+.nav-starter {
+  width: 150px;
+  justify-content: flex-end;
+  padding-left: 8px;
+}
+
+.nav-main {
+  width: 170px;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+
+.nav-desserts {
+  width: 130px;
+  justify-content: flex-end;
+  padding-left: 10px;
 }
 
 .nav-links a:last-child {
