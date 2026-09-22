@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -60,6 +60,7 @@ header h1 {
 .nav-links a {
   text-decoration: none;
   color: #fff;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 14px;
   border-right: 2px solid #b25e8b;
@@ -92,10 +93,6 @@ header h1 {
   padding-left: 10px;
 }
 
-.nav-links a:last-child {
-  border-right: none;
-}
-
 .nav-search {
   display: flex;
   align-items: center;
@@ -109,6 +106,7 @@ header h1 {
   border: 1px solid #999;
   padding: 3px;
   width: 150px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .go-btn {
@@ -117,6 +115,7 @@ header h1 {
   padding: 3px 8px;
   cursor: pointer;
   font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .main-wrapper {
@@ -151,6 +150,7 @@ header h1 {
   text-align: left;
   width: 100%;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .circle-img-container {
@@ -202,21 +202,24 @@ header h1 {
   margin-bottom: 1px;
   line-height: 1.1;
   font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .red-text {
   color: red;
   font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .highlight-text {
   color: #bd8665;
   font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .back-to-top {
   color: #d62136;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 13px;
   text-decoration: underline;
@@ -245,6 +248,7 @@ header h1 {
   line-height: 40px;
   box-sizing: border-box;
   flex: 0 0 325px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .select-field {
@@ -257,6 +261,7 @@ header h1 {
   box-sizing: border-box;
   background-color: #fff;
   flex: 0 0 325px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .radio-group {
@@ -266,6 +271,7 @@ header h1 {
   flex: 1;
   font-size: 14px;
   white-space: nowrap;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .comment-row {
@@ -286,11 +292,13 @@ header h1 {
   font-size: 13px;
   box-sizing: border-box;
   color: #000;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .textarea-field::placeholder {
   color: #000;
   opacity: 1;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .form-row-button {
@@ -313,7 +321,7 @@ header h1 {
   cursor: pointer;
   border-radius: 3px;
   font-size: 13px;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .right-sidebar {
@@ -357,11 +365,13 @@ header h1 {
   font-size: 12px;
   line-height: 1.4;
   color: #ccc;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .event-box a {
   color: #b49ea6;
   text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
 }
 
 footer {
@@ -369,7 +379,7 @@ footer {
   text-align: center;
   padding: 20px;
   color: #fff;
-  font-family: "Times New Roman", Times;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 22px;
   font-weight: bold;
