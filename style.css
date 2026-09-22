@@ -373,5 +373,5 @@ footer {
   font-style: italic;
   font-size: 22px;
   font-weight: bold;
-  border: 2px solid #b04a4a;
+  border-bottom: 1px solid #b04a4a;
 }
